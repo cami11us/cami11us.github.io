@@ -20,7 +20,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: fade-out($black, 0.15);
+        background-color: fade-out($black, 0.25);
     }
 
     // Masthead content element
@@ -61,7 +61,6 @@
         }
 
         // Styling for calendly button section
-        // Styling for the signup form input
         .input-group-schedule {
             input {
                 height: auto;
