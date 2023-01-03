@@ -59,6 +59,35 @@
                 padding: calc(1rem + 2px);
             }
         }
+
+        // Styling for calendly button section
+        // Styling for the signup form input
+        .input-group-schedule {
+            input {
+                height: auto;
+                width: 100%;
+                font-size: 1rem;
+                padding: 1rem;
+            }
+
+            a {
+                font-size: 0.85rem;
+                font-weight: 700;
+                background-color: rgb(248, 73, 9);
+                border-width: 2px;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                padding: calc(1rem + 2px);
+                margin: 1rem;
+                transition: background-color 0.5s, color 0.5s;
+            }
+
+            a:hover {
+                background-color: gold;
+                color: black;
+            }
+        }
     }
 }
 
